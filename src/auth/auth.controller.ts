@@ -68,7 +68,7 @@ export class AuthController {
   }
 
   @Patch(':id')
-  @ApiBearerAuth('User JWT Authentication')
+  // @ApiBearerAuth('User JWT Authentication')
   @ApiOperation({
     summary:
       'Editar informacion de un registro. Requiere ser admin y estar autenticado',
